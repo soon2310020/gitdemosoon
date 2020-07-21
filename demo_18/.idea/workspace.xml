@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b28a10d4-8f8a-4a44-99dd-292fc82d171f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../bai1/b2.php" beforeDir="false" afterPath="$PROJECT_DIR$/../bai1/b2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai1/bai1.php" beforeDir="false" afterPath="$PROJECT_DIR$/../bai1/bai1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai1/baitap3.php" beforeDir="false" afterPath="$PROJECT_DIR$/../bai1/baitap3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baitapvenha12/songuyento.php" beforeDir="false" afterPath="$PROJECT_DIR$/../baitapvenha12/songuyento.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baitapvenha14/bai1.php" beforeDir="false" afterPath="$PROJECT_DIR$/../baitapvenha14/bai1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baitapvenha15/bai2.php" beforeDir="false" afterPath="$PROJECT_DIR$/../baitapvenha15/bai2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baitapvenha16/login2.php" beforeDir="false" afterPath="$PROJECT_DIR$/../baitapvenha16/login2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baitapvenha16/logout2.php" beforeDir="false" afterPath="$PROJECT_DIR$/../baitapvenha16/logout2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo13/demo_function.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo13/demo_function.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo14/demo_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo14/demo_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo14/thuc_hanh_form_2.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo14/thuc_hanh_form_2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo14/thuc_hanh_form_3.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo14/thuc_hanh_form_3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/demo_xss.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/demo_xss.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/form_file.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/form_file.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/read_write_file.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo15/read_write_file.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo15/write.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo16/demo_cookie.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo16/demo_cookie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo17/notedatabase.html" beforeDir="false" afterPath="$PROJECT_DIR$/../demo17/notedatabase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_12/demo_12.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_12/demo_12.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_login/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_login/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo_login/success.php" beforeDir="false" afterPath="$PROJECT_DIR$/../demo_login/success.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1479322801">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="php" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PHP" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="php" value="5134" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PHP" value="5133" />
+          <entry key="SQL" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo_php_conection.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+              <folding>
+                <element signature="e#6#49#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="C:/" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/demo_php_conection.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1349" />
+    <option name="height" value="690" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="demo_18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo_18" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b28a10d4-8f8a-4a44-99dd-292fc82d171f" name="Default Changelist" comment="" />
+      <created>1595075354364</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595075354364</updated>
+      <workItem from="1595075355551" duration="6344000" />
+      <workItem from="1595340489176" duration="37000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6381000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/demo_php_conection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#49#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
