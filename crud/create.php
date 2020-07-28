@@ -26,7 +26,7 @@ if (isset($_POST['submit'])) {
 //        xử lý file upload phải có dạng ảnh
 //
         $extension = pathinfo($avatar_arr['name'], PATHINFO_EXTENSION);
-        var_dump($extension);
+//        var_dump($extension);
         $extension = strtolower($extension);
         $extension_allowed = ['jpg', 'jpeg', 'png', 'gif'];
         if ((!in_array($extension, $extension_allowed))) {

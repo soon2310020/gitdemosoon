@@ -13,6 +13,13 @@ if (!isset($_GET['id'])||is_nan($_GET['id']))
     exit();
 }
 $id =$_GET['id'];
+$sql_select_one = "select * from categories where id=$id";
+
+$result = mysqli_query($conection, $sql_select_one);
+
+$category = mysqli_fetch_assoc($result);
+$avatar=$category['avatar'];
+
 //tạo câu truy vấn
 $sql_delete ="delete from categories where id =$id";
 //thực thi câu truy vấn
@@ -21,6 +28,7 @@ $is_delete =mysqli_query($conection,$sql_delete);
 if ($is_delete)
 {
     $_SESSION['success']="xóa bản ghi id =$id thành công";
+    unlink("uploads/$avatar");
 
 }
 else

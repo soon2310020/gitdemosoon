@@ -35,24 +35,28 @@ if (isset($_POST['save'])) {
                 break;
 
         }
+    }else
+    {
+        $err="phải chọn giới tính";
     }
     if (empty($name)) {
         $err = "bạn không được để trống name";
     }
+    else if (!is_numeric($salary)) {
+        $err = "lương phải là số";
+    }
+
+
 
     echo "<h6 style='color: red'>$err</h6>";
     if (empty($err)) {
         $insert = "insert into employees(`name`,`description`,`gender`,`salary`,`birthday`)  values
          ('$name','$description','$gender','$salary','$birthday')";
-//        $insert = "insert into employees(`name`,`description`,`gender`,`salary`,`birthday`)  values
-//         ('trần sơn','trần',0,12,'2011-11-12')";
-        $is_insert=mysqli_query($conection,$insert);
-         if($is_insert)
-         {
-             $_SESSION['connect']=$conection;
-             $_SESSION['success']="nhập nhân viên thành công";
-             header('location:list.php');
-         }
+        $is_insert = mysqli_query($conection, $insert);
+        if ($is_insert) {
+            $_SESSION['success'] = "nhập nhân viên thành công";
+            header('location:list.php');
+        }
     }
 }
 ?>
@@ -104,7 +108,7 @@ if (isset($_POST['save'])) {
         <div class="form-group">
 
             <label for="formGroupExampleInput">birthday</label>
-            <input  type="text" id="formGroupExampleInput" class="form-control" placeholder="mm/dd/yy" name="birthday">
+            <input type="text" id="formGroupExampleInput" class="form-control" placeholder="mm/dd/yy" name="birthday">
         </div>
         <button type="submit" class="btn btn-primary" name='save' value="save">Save</button>
         <button type="button" class="btn btn-light">cancel</button>

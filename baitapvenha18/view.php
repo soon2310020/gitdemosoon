@@ -12,7 +12,13 @@ const DB_NAME = 'baitap1';
 //khai báo rằng csdl sẽ kết nối qua cổng
 const DB_port = 3306;
 $conection = mysqli_connect(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
-$id =$_SESSION['id'];
+if (!isset($_GET['id'])||is_nan($_GET['id']))
+{
+    $_SESSION['error']="id bị sai";
+    header("location:list.php");
+    exit();
+}
+$id =$_GET['id'];
 $sql_select_one ="select * from employees where  id =$id";
 $res_one = mysqli_query($conection,$sql_select_one);
 $category =mysqli_fetch_assoc($res_one);
@@ -28,7 +34,7 @@ $category =mysqli_fetch_assoc($res_one);
     <script src='main.js'></script>
 </head>
 <body>
-<div class="container"> </div>
+<div class="container">
 <h1>view record</h1>
 <form>
     <div class="form-group">
@@ -52,5 +58,6 @@ $category =mysqli_fetch_assoc($res_one);
         <div class="form-control" style="border: 0"><?php echo $category['birthday'] ?></div>
     </div>
 </form>
+</div>
 </body>
 </html>

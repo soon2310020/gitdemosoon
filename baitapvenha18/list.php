@@ -12,9 +12,21 @@ const DB_NAME = 'baitap1';
 //khai báo rằng csdl sẽ kết nối qua cổng
 const DB_port = 3306;
 $conection = mysqli_connect(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
+if (!isset($_SESSION['success']))
+{
+$_SESSION['success']="";
 
+}
+if (!isset($_SESSION['error']))
+{
+    $_SESSION['error']="";
+}
 $ss = $_SESSION['success'];
-echo "<h6 style='margin: auto'>$ss</h6>";
+unset($_SESSION['success']);
+echo "<h6 style='color: #1c7430'>$ss</h6>";
+$error =$_SESSION['error'];
+unset($_SESSION['error']);
+echo "<h6 style='color: red'>$error</h6>";
 $select_all = "select * from employees";
 $select_all_res = mysqli_query($conection, $select_all);
 $employees = mysqli_fetch_all($select_all_res, MYSQLI_ASSOC);
@@ -60,10 +72,11 @@ $employees = mysqli_fetch_all($select_all_res, MYSQLI_ASSOC);
                 <td><?php echo $employee['salary'] ?></td>
                 <td><?php echo $employee['gender'] ?></td>
                 <td><?php echo $employee['birthday'] ?></td>
-                <td><?php echo $employee['created_at'] ?></td>
-                <td>
-                    <a href="view.php"> <?php $_SESSION['id']= $employee['id'] ?> <i class="far fa-eye"></i></a><a href="view.php"> <i class="fas fa-pen"></i></a><a href="view.php">
-                        <i class="fas fa-trash-alt"></i></a>
+                <td ><?php echo $employee['created_at'] ?></td>
+                <td style="letter-spacing: 5px; ">
+                    <a href="view.php?id=<?php echo $employee['id'] ?>" style="color: white; text-decoration: none"> <i class="far fa-eye"></i></a>
+                    <a href="update.php?id=<?php echo $employee['id'] ?>" style="color: white; text-decoration: none" > <i class="fas fa-pen" ></i></a>
+                    <a href="delete.php?id=<?php echo $employee['id'] ?>" style="color: white; text-decoration: none" onclick=" return confirm('bạn có muốn xóa không?');"><i class="fas fa-trash-alt" ></i></a>
                 </td>
             </tr>
         <?php endforeach; ?>
