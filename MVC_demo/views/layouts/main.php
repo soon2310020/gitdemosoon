@@ -1,26 +1,28 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: soon231020
- * Date: 8/1/2020
- * Time: 8:58 PM
- */
+//mvc_demo/views/layouts/main.php
+//File layout chính của ứng dụng
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <title>Title</title>
 </head>
 <body>
-<!--NHÚNG FOOTER-->
-<!--nhúng header-->
+<!--  Nhúng header  -->
 <div class="header">
-    <?php require_once 'header.php'?>
+    <?php require_once 'header.php'; ?>
+</div>
+<div class="main-content">
+    <!--  Hiển thi nội dung động  -->
+<!--    do file layouts luôn nhúng trong phiowng thức của class , nên sử dụng $thí như thường -->
+    <h3 style="color:red;"><?php echo $this->error;?></h3>
+<?php
+echo $this->content;
+?>
+</div>
+<!--  Nhúng footer  -->
+<div class="footer">
+    <?php require_once 'footer.php'; ?>
 </div>
 </body>
 </html>
